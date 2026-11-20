@@ -5,7 +5,6 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:onClick="OnArrange"
     tools:context=".MainActivity">
 
     <ImageView
@@ -26,6 +25,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="165dp"
         android:text="Белый слон"
+        android:fontFamily="@font/amatic_sc_bold"
         android:textColor="#FDFDFD"
         android:textSize="36sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -129,6 +129,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginEnd="60dp"
         android:backgroundTint="#FF0000"
+        android:onClick="OnArrange"
         android:text="Оформить заказ"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
